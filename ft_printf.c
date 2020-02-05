@@ -89,7 +89,7 @@ int		ft_printf(const char *format, ...)
 			if (format[list3.a] == '\0')
 			{
 				ft_utils8(&list);
-				return (0);
+				break ;
 			}
 			list3.size += ft_converter(list3.a, format, ap, list);
 		}
