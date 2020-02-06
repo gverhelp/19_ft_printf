@@ -91,7 +91,7 @@ int	ft_utils5(t_list *list, int len, char *c)
 	char	*tmp2;
 
 	tmp = list->str;
-	if (!(tmp2 = ft_strdup("-")))
+	if (!(tmp2 = ft_strdup(c)))
 		return (0);
 	if (!(list->str = ft_strjoin(tmp2, list->str)))
 		return (0);
